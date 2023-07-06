@@ -43,7 +43,7 @@ const expected = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
  * Worst: O(n^2) quadratic when the array is reverse sorted.
  * @param {Array<number>} numbers
  * @returns {Array<number>} The given array after being sorted.
- */
+ */                                      
 
 function insertionSort(numbers) { 
     let i = 1;
