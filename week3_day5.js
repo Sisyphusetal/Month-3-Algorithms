@@ -100,29 +100,6 @@ const howManyRecipes = (recipe, available) => {
     return minServings;
 };
 
-const recipe1 = {
-    "organic fat": 99,
-    "broccoli seeds": 1,
-    okra: 1,
-    potato: 1,
-    spicy: 5,
-    "gourmet memes": 4200,
-};
-
-const available1 = {
-    "organic fat": 990,
-    "broccoli seeds": 1,
-    okra: 10,
-    potato: 10,
-    spicy: 50,
-    "gourmet memes": 42000,
-    sugar: 9001,
-    spice: 5,
-    "everything nice": 1,
-    "triple point water": 5,
-};
-
-
 console.log(getMaxServings(recipe1, available1));
 console.log(getMaxServings(recipe1, available2));
 console.log(getMaxServings(recipe1, available3));
